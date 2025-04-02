@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family:'Georgia', serif,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FDF7E4;
+  /* background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); */
+}
+
+.App {
+  text-align: center;
+  background-color: #FDF7E4;
+  height: calc(100vh - 60px);
+  /* Adjusting for the navbar */
+  color: #565D47;
+  display: flex;
+  margin: 0;
+  /* background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); */
+}
+
+.container {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FDF7E4;
+  padding: 10px 40px;
+  height: 60px;
+}
+
+.color-primary {
+  color: #A37C5D;
+  margin-bottom: 0.5rem;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+#api-key {
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #D7DAB3;
+  background-color: #F5EDD5;
+  color: #565D47;
+}
+
+#api-key::placeholder {
+  color: #7a7a7a;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.primaryColor {
+  color: #e02aff;
+}
+
+.secondaryColor {
+  color: rgb(184, 65, 184);
+}
+
+#mainForm {
+  margin: 20px auto;
+  display: inline-flex;
+}
+
+#mainForm input {
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 1px solid #D7DAB3;
+  outline: none;
+  margin-right: 10px;
+  background-color: #F5EDD5;
+  color: #565D47;
+}
+
+#mainButton {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  border: 1px solid #D4AA7D;
+  outline: none;
+  background-color: #D4AA7D;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 0 0 transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+#mainButton:hover {
+  background-color: #c18c6a;
+  box-shadow: 0 0 12px #D4AA7D;
+}
+
+#response {
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+  padding: 1rem;
+}
+
+/* --- Fade-In Animation --- */
+/* @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.fade-in.delay-1 {
+  animation-delay: 0.3s;
+}
+.fade-in.delay-2 {
+  animation-delay: 0.6s;
+}
+.fade-in.delay-3 {
+  animation-delay: 0.9s;
+}
+.fade-in.delay-4 {
+  animation-delay: 1.2s;
+} */
+
+/* @keyframes pulseGlow {
+  0% { 
+    box-shadow: 0 0 0px #D4AA7D; 
+  }
+  50% { 
+    box-shadow: 0 0 15px #D4AA7D; 
+  }
+  100% { 
+    box-shadow: 0 0 0px #D4AA7D; 
+  }
+} */
+
+/* #response {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #EFE9D5;
+  border-left: 6px solid #D4AA7D;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  animation: pulseGlow 2s ease-in-out;
+} */

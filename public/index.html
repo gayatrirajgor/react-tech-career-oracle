@@ -27,17 +27,28 @@
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="navbar">
+      <input id="api-key" type="password" placeholder="Enter API key" />
+    </div>
+    <div class="App">
+      <div class="container">
+        <h1 class="fade-in">This is your gateway to
+          <br/>
+          <span class="color-primary highlight fade-in delay-1">The Tech Career Oracle</span>
+        </h1>
+        <p class="subtext fade-in delay-2">Ask your questions, dear dev.<br>
+          The path ahead will reveal itself.</h1>
+        <form id="mainForm" class="fade-in delay-3">
+          <input id="input-field" placeholder="What's your question?" />
+          <button id="mainButton">
+            <span id="spinner" style="display: none;">Loading...</span>
+            <span id="arrow">Send</span>
+          </button>
+        </form>
+        <div id="response" class="response">
+          <p id="result"></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
