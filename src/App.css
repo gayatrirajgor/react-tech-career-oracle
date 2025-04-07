@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.theme-toggle-container {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  z-index: 1000;
+}
+
+/* Default (light) theme */
+body[data-theme='light'] {
+  background-color: #FDF7E4;
+  color: #565D47;
+}
+
+/* Dark mode */
+body[data-theme='dark'] {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+body[data-theme='dark'] .oracle-card,
+body[data-theme='dark'] .oracle-result {
+  background-color: #2d2d2d;
+  color: #ddd;
+  border-left-color: #A37C5D;
+}
+
+body[data-theme='dark'] .oracle-chat input,
+body[data-theme='dark'] .oracle-chat button {
+  background-color: #3a3a3a;
+  color: #eee;
+  border: 1px solid #444;
+}
+
+body[data-theme='dark'] .oracle-chat button:hover {
+  background-color: #A37C5D;
+}
+
+
