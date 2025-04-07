@@ -1,6 +1,8 @@
 import './App.css';
 import './styles/styles.css';
 import OracleChat from './components/OracleChat';
+import OracleCard from './components/OracleCard';
+
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
         <h2 className="highlight">The Tech Career Oracle</h2>
         <p className="subtext">Ask your questions, dear dev.<br />The path ahead will reveal itself.</p>
       </header>
-      
+
+      <OracleCard />
       <OracleChat />
     </div>
   );

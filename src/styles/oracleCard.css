@@ -1,0 +1,21 @@
+/* OracleCard.css */
+
+.oracle-card {
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #F1ECD8;
+  border-left: 4px solid #D4AA7D;
+  border-radius: 12px;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #565D47;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(212, 170, 125, 0.1);
+  text-align: center;
+}
+
+.oracle-card h3 {
+  margin-bottom: 0.5rem;
+  color: #A37C5D;
+  font-size: 1.2rem;
+}
