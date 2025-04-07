@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import './styles/styles.css';
+import OracleChat from './components/OracleChat';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="oracle-header">
+        <h1>This is your gateway to</h1>
+        <h2 className="highlight">The Tech Career Oracle</h2>
+        <p className="subtext">Ask your questions, dear dev.<br />The path ahead will reveal itself.</p>
       </header>
+      
+      <OracleChat />
     </div>
   );
 }
